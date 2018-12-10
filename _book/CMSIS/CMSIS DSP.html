@@ -1,0 +1,561 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>CMSIS DSP · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="../Platform Testing and CI/" />
+    
+    
+    <link rel="prev" href="./" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    CMSIS
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter active" data-level="1.2.1" data-path="CMSIS DSP.html">
+            
+                <a href="CMSIS DSP.html">
+            
+                    
+                    CMSIS DSP
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="../Platform Testing and CI/">
+            
+                <a href="../Platform Testing and CI/">
+            
+                    
+                    Platform Testing and CI
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="../Platform Testing and CI/unit_tests.html">
+            
+                <a href="../Platform Testing and CI/unit_tests.html">
+            
+                    
+                    Unit Tests
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2" data-path="../Platform Testing and CI/jenkins_ci.html">
+            
+                <a href="../Platform Testing and CI/jenkins_ci.html">
+            
+                    
+                    Jenkins Continuous Integration
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3" data-path="../Platform Testing and CI/docker.html">
+            
+                <a href="../Platform Testing and CI/docker.html">
+            
+                    
+                    Docker Containers
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.4" data-path="../Platform Testing and CI/misra.html">
+            
+                <a href="../Platform Testing and CI/misra.html">
+            
+                    
+                    MISRA
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.5" data-path="../Platform Testing and CI/Coverity wizard.html">
+            
+                <a href="../Platform Testing and CI/Coverity wizard.html">
+            
+                    
+                    COVERITY Wizard
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="../contribute/">
+            
+                <a href="../contribute/">
+            
+                    
+                    Contributing & DevCall
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1" data-path="../contribute/git_examples.html">
+            
+                <a href="../contribute/git_examples.html">
+            
+                    
+                    GIT Examples
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2" data-path="../contribute/docs.html">
+            
+                <a href="../contribute/docs.html">
+            
+                    
+                    Documentation
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.3" data-path="../contribute/licenses.html">
+            
+                <a href="../contribute/licenses.html">
+            
+                    
+                    Licenses
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >CMSIS DSP</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="how-to-use-cmsis-dsp-library-for-toolchains">How to use CMSIS DSP library for toolchains</h1>
+<h2 id="introduction">Introduction</h2>
+<p><a href="https://github.com/ARM-software/CMSIS_5/tree/5.4.0/CMSIS/DSP/Source" target="_blank"><strong>CMSIS-DSP</strong></a> library is a rich collection of DSP functions that Arm has optimized for the various <code>Cortex-M</code> processor cores. CMSIS-DSP is widely used in the industry and enables also optimized C code generation from various third-party tools.</p>
+<p>The library is divided into a number of functions each covering a specific category:</p>
+<ul>
+<li><p>Basic math functions </p>
+</li>
+<li><p>Fast math functions </p>
+</li>
+<li><p>Complex math functions </p>
+</li>
+<li><p>Filters </p>
+</li>
+<li><p>Matrix functions </p>
+</li>
+<li><p>Transforms </p>
+</li>
+<li><p>Motor control functions </p>
+</li>
+<li><p>Statistical functions </p>
+</li>
+<li><p>Support functions </p>
+</li>
+<li><p>Interpolation functions</p>
+</li>
+</ul>
+<p>The library has separate functions for operating on <code>8-bit integers, 16-bit integers, 32-bit integer and 32-bit floating-point values</code>.</p>
+<h2 id="using-the-library">Using the Library</h2>
+<p>The library installer contains pre-built versions of the libraries in the &#x202F;Lib &#x202F;folder.</p>
+<pre><code>arm_cortexM7lfdp_math.lib (Cortex-M7, Little endian, Double Precision Floating Point Unit) 
+arm_cortexM7bfdp_math.lib (Cortex-M7, Big endian, Double Precision Floating Point Unit) 
+arm_cortexM7lfsp_math.lib (Cortex-M7, Little endian, Single Precision Floating Point Unit) 
+arm_cortexM7bfsp_math.lib (Cortex-M7, Big endian and Single Precision Floating Point Unit on) 
+arm_cortexM7l_math.lib (Cortex-M7, Little endian) 
+arm_cortexM7b_math.lib (Cortex-M7, Big endian) 
+arm_cortexM4lf_math.lib (Cortex-M4, Little endian, Floating Point Unit) 
+arm_cortexM4bf_math.lib (Cortex-M4, Big endian, Floating Point Unit) 
+arm_cortexM4l_math.lib (Cortex-M4, Little endian) 
+arm_cortexM4b_math.lib (Cortex-M4, Big endian) 
+arm_cortexM3l_math.lib (Cortex-M3, Little endian) 
+arm_cortexM3b_math.lib (Cortex-M3, Big endian) 
+arm_cortexM0l_math.lib (Cortex-M0 / Cortex-M0+, Little endian) 
+arm_cortexM0b_math.lib (Cortex-M0 / Cortex-M0+, Big endian) 
+arm_ARMv8MBLl_math.lib (Armv8-M Baseline, Little endian) 
+arm_ARMv8MMLl_math.lib (Armv8-M Mainline, Little endian) 
+arm_ARMv8MMLlfsp_math.lib (Armv8-M Mainline, Little endian, Single Precision Floating Point Unit) 
+arm_ARMv8MMLld_math.lib (Armv8-M Mainline, Little endian, DSP instructions) 
+arm_ARMv8MMLldfsp_math.lib (Armv8-M Mainline, Little endian, DSP instructions, Single Precision Floating Point Unit)
+</code></pre><p>The library functions are declared in the public file &#x202F;arm_math.h, &#x202F;which is placed in the &#x202F;Include &#x202F;folder. Simply include this file and link the appropriate library in the application and begin calling the library functions. The Library supports single public header file &#x202F;arm_math.h &#x202F;for Cortex-M cores with little endian and big endian. Same header file will be used for floating point unit(FPU) variants. Define the appropriate preprocessor macro <code>ARM_MATH_CM7</code> or <code>ARM_MATH_CM4</code> or <code>ARM_MATH_CM3</code> or <code>ARM_MATH_CM0</code> or <code>ARM_MATH_CM0PLUS</code> depending on the target processor in the application. For Armv8-M cores define preprocessor macro <code>ARM_MATH_ARMV8MBL</code> or <code>ARM_MATH_ARMV8MML</code>. Set preprocessor macro <code>__DSP_PRESENT</code> if Armv8-M Mainline core supports DSP instructions. </p>
+<h2 id="potential-issues">Potential Issues</h2>
+<p>There is a warning occurs in <code>CMSIS/DSP_Lib/Source/TransformFunctions/arm_cfft_radix4_q31.c: In function &apos;arm_radix4_butterfly_q31&apos;</code>.</p>
+<pre><code class="lang-c">Warning: dereferencing type-punned pointer will <span class="hljs-keyword">break</span> strict-aliasing rules&#x202F;[-Wstrict-aliasing]&#x202F;xaya = *_SIMD64(ptr1)+;
+</code></pre>
+<p>This function to be called  only in <code>hexiware_heartrate</code> project use this function to do FFT, which including source code file directly not the library, which like <code>../../CMSIS/Lib/GCC/libarm_cortexM4lf_math.a</code>, generated by ARM &apos;s project using <code>GCC</code> compiler. </p>
+<h2 id="reasons">Reasons</h2>
+<p>The reason why this warning occurs is that <code>GCC</code> project ignore those warnings directly during the library generation process and we didn&apos;t use the parameter, <code>-fno-strict-aliasing</code>, to ignore those warnings in our <code>GCC</code> project, so we can add this parameter, <code>-fno-strict-aliasing</code>, to ignore it, and ARM gives a suggestion to fix those warnings but this resolution will not be added into the official release version. </p>
+<p>Now ARM CMSIS official release version is 5.4 and ours is 5.3, we can update it in next SDK release, but this update would not fix those warnings, and ARM&apos;s suggestion is that users should use official library throuth include arm_math.h with library , not with the original source code.</p>
+<h2 id="resolution">Resolution</h2>
+<p>Simply include this file, <code>arm_math.h</code>, and link the appropriate library in the application and begin calling the library functions.</p>
+<h2 id="how-to-make-a-project-to-including-specific-cmsis-dsp-library">How to make a project to including specific CMSIS DSP library</h2>
+<p>Our project is generated by ruby generator, so need to configure <code>yml</code> file to include a specific CMSIS DSP library.</p>
+<h3 id="setting-steps">Setting Steps</h3>
+<ol>
+<li><p>CMSIS DSP library yml setting in <code>C:\nxp_ksdk\mcu-sdk-2.0\CMSIS\CMSIS.yml</code>.</p>
+<ol>
+<li><p>Yml support three toolchains to require, <code>MDK/ARMGCC/MCUX</code>, without <code>IAR</code>.</p>
+<pre><code class="lang-yaml">CMSIS_DSP_Lib.arm_cortexM4lf_math:
+<span class="hljs-attr">  section-type:</span> component
+<span class="hljs-attr">  meta-name:</span> platform.CMSIS_DSP_Lib.arm_cortexM4lf_math
+<span class="hljs-attr">  contents:</span>
+<span class="hljs-attr">    files:</span>
+<span class="hljs-attr">    - source:</span> CMSIS/Lib/ARM/arm_cortexM4lf_math.lib
+<span class="hljs-attr">      virtual-dir:</span> libs
+<span class="hljs-attr">      toolchains:</span> mdk
+<span class="hljs-attr">      attribute:</span> extra-libraries
+<span class="hljs-attr">    - source:</span> CMSIS/Lib/GCC/libarm_cortexM4lf_math.a
+<span class="hljs-attr">      virtual-dir:</span> libs
+<span class="hljs-attr">      toolchains:</span> armgcc kds mcux
+<span class="hljs-attr">      attribute:</span> extra-libraries
+<span class="hljs-attr">  __requires__:</span>
+<span class="hljs-bullet">  -</span> CMSIS_DSP_Lib.ui_control cmsis.core_cm4f.support
+<span class="hljs-attr">  component_info:</span>
+<span class="hljs-attr">    common:</span>
+<span class="hljs-attr">      type:</span> CMSIS_driver
+<span class="hljs-attr">      version:</span> <span class="hljs-number">1.5</span><span class="hljs-number">.2</span>
+<span class="hljs-attr">    cmsis_pack:</span>
+<span class="hljs-attr">      class:</span> CMSIS
+<span class="hljs-attr">      pack_name:</span> CMSIS
+<span class="hljs-attr">      group:</span> DSP
+<span class="hljs-attr">      pack_url:</span> http://www.keil.com/pack/
+<span class="hljs-attr">      pack_vendor:</span> ARM
+<span class="hljs-attr">      pack_version:</span> <span class="hljs-number">5.3</span><span class="hljs-number">.0</span>
+</code></pre>
+</li>
+<li><p>IAR toolchain need use default library in IAR toolchain install path, <code>C:\Program Files (x86)\IARSystems\Embedded Workbench 8.1\arm\CMSIS\Lib\IAR\iar_cortexM4lf_math.a</code>, named with prefix <code>iar_</code>.</p>
+</li>
+<li><p>Calling process for CMSIS yml</p>
+<ul>
+<li>Specific SOC yml load specific SOC component yml. </li>
+<li>Specific SOC component yml load others yml. </li>
+<li>Others yml load CMSIS yml</li>
+</ul>
+</li>
+</ol>
+</li>
+</ol>
+<h3 id="examples">Examples</h3>
+<p>SAI project as example in platform twrk80f150m.</p>
+<h4 id="gccmdkmcux">GCC/MDK/MCUX</h4>
+<ol>
+<li>Add required CMSIS DSP library, which named <code>CMSIS_DSP_Lib.arm_cortexM4lf_math</code> in <code>CMSIS.yml</code>, into SAI requires section for twrk80f150m.yml in <code>C:\nxp_ksdk\mcu-sdk-2.0\bin\generator\records_v1\msdk\projects\sdk_example\twrk80f150m.yml</code>.</li>
+</ol>
+<pre><code class="lang-yaml"><span class="hljs-attr">__requires__:</span> 
+<span class="hljs-bullet">  -</span> driver.i2c driver.sgtl5000 CMSIS_DSP_Lib.arm_cortexM4lf_math
+</code></pre>
+<ol>
+<li>Build SAI project with <code>GCC</code> compiler and will link the specific CMSIS DSP library, <code>libarm_cortexM4lf_math.a</code>, into CMakelist.txt.</li>
+</ol>
+<pre><code class="lang-cmake"><span class="hljs-keyword">link_directories</span>(<span class="hljs-variable">${ProjDirPath}</span>/../../../../../CMSIS/Lib/GCC) 
+
+<span class="hljs-keyword">target_link_libraries</span>(sai.elf debug <span class="hljs-variable">${ProjDirPath}</span>/../../../../../CMSIS/Lib/GCC/libarm_cortexM4lf_math.a) 
+
+<span class="hljs-keyword">link_directories</span>(<span class="hljs-variable">${ProjDirPath}</span>/../../../../../CMSIS/Lib/GCC) 
+
+<span class="hljs-keyword">target_link_libraries</span>(sai.elf optimized <span class="hljs-variable">${ProjDirPath}</span>/../../../../../CMSIS/Lib/GCC/libarm_cortexM4lf_math.a)
+</code></pre>
+<h4 id="iar">IAR</h4>
+<ol>
+<li>Use library directly in IAR toolchain install path, IAR will select right CMSIS DSP library based on device type, based on ARM core.</li>
+<li>Use cc-flags parameter, <code>--use_cmsis_dsp</code>, to check CMSIS DSP library for specific examples in hierarchy. such as SAI in <code>C:\nxp_ksdk\mcu-sdk-2.0\bin\generator\records\msdk\projects\sdk_example\common\kinetis\demo_app.yml</code>.</li>
+</ol>
+<pre><code class="lang-YML"><span class="hljs-attr">sai:</span> 
+<span class="hljs-attr">  configuration:</span> 
+<span class="hljs-attr">    tools:</span> 
+<span class="hljs-attr">      __common__:</span> 
+<span class="hljs-attr">        libraries:</span> 
+<span class="hljs-attr">        include:</span> 
+<span class="hljs-attr">        config:</span> 
+<span class="hljs-attr">          __common__:</span> 
+<span class="hljs-attr">            cc-include:</span> 
+<span class="hljs-attr">            - path:</span> boards/src/demo_apps/sai 
+<span class="hljs-attr">              release-dir:</span> boards/${board}/demo_apps/sai/${multicore_foldername} 
+<span class="hljs-attr">            - path:</span> boards/${board}/demo_apps/sai/${multicore_foldername} 
+<span class="hljs-attr">            cc-define:</span> 
+              PRINTF_FLOAT_ENABLE=<span class="hljs-number">1</span>: 
+<span class="hljs-attr">      iar:</span> 
+<span class="hljs-attr">        config:</span> 
+<span class="hljs-attr">          __common__:</span> 
+<span class="hljs-attr">            cc-flags:</span> 
+<span class="hljs-bullet">            -</span> <span class="hljs-string">&quot;--use_cmsis_dsp&quot;</span>
+</code></pre>
+<ol>
+<li><p>Open project option and can see checked CMSIS DSP library.</p>
+<p><img src="../assets/gitbook/CMSIS_DSP_library_for_IAR.png" alt="CMSIS_DSP_library_for_IAR"></p>
+</li>
+<li><p>Will include CMSIS DSP library, <code>&quot;C:\Program Files (x86)\IARSystems\Embedded Workbench 8.1\arm\CMSIS\Lib\IAR\iar_cortexM4lf_math.a&quot;</code>, in final map file.</p>
+</li>
+</ol>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="./" class="navigation navigation-prev " aria-label="Previous page: CMSIS">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="../Platform Testing and CI/" class="navigation navigation-next " aria-label="Next page: Platform Testing and CI">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"CMSIS DSP","level":"1.2.1","depth":2,"next":{"title":"Platform Testing and CI","level":"1.3","depth":1,"path":"Platform Testing and CI/README.md","ref":"Platform Testing and CI/README.md","articles":[{"title":"Unit Tests","level":"1.3.1","depth":2,"path":"Platform Testing and CI/unit_tests.md","ref":"Platform Testing and CI/unit_tests.md","articles":[]},{"title":"Jenkins Continuous Integration","level":"1.3.2","depth":2,"path":"Platform Testing and CI/jenkins_ci.md","ref":"Platform Testing and CI/jenkins_ci.md","articles":[]},{"title":"Docker Containers","level":"1.3.3","depth":2,"path":"Platform Testing and CI/docker.md","ref":"Platform Testing and CI/docker.md","articles":[]},{"title":"MISRA","level":"1.3.4","depth":2,"path":"Platform Testing and CI/misra.md","ref":"Platform Testing and CI/misra.md","articles":[]},{"title":"COVERITY Wizard","level":"1.3.5","depth":2,"path":"Platform Testing and CI/Coverity wizard.md","ref":"Platform Testing and CI/Coverity wizard.md","articles":[]}]},"previous":{"title":"CMSIS","level":"1.2","depth":1,"path":"CMSIS/README.md","ref":"CMSIS/README.md","articles":[{"title":"CMSIS DSP","level":"1.2.1","depth":2,"path":"CMSIS/CMSIS DSP.md","ref":"CMSIS/CMSIS DSP.md","articles":[]}]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"CMSIS/CMSIS DSP.md","mtime":"2018-12-10T11:11:04.154Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-12-10T14:26:28.200Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
