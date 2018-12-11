@@ -165,7 +165,7 @@ sai:
 
 1. Open project option and can see checked CMSIS DSP library.
 
-   ![CMSIS\_DSP\_library\_for\_IAR](https://github.com/Summercore/NXP_DEV_GUIDE/tree/150ec95ff004d5c2b1dc522643b97470763fa5b1/DevelopGuide/assets/gitbook/CMSIS_DSP_library_for_IAR.png)
+   ![CMSIS\_DSP\_library\_for\_IAR](../.gitbook/assets/cmsis_dsp_library_for_iar.png)
 
 2. Will include CMSIS DSP library, `"C:\Program Files (x86)\IARSystems\Embedded Workbench 8.1\arm\CMSIS\Lib\IAR\iar_cortexM4lf_math.a"`, in final map file.
 
