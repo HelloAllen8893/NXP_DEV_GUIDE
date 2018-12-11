@@ -1,4 +1,0 @@
-#MISRA
-
-TBD
-

@@ -4,8 +4,7 @@
 
 This page documents the licenses of various components in the system.
 
-* [SDK source code](https://bitbucket.sw.nxp.com/projects/MCUCORE/repos/mcu-sdk-2.0/browse) &mdash; BSD
-
-* Documentation 
-  * [SDK Development Guide_need to update](https://github.com/) &mdash;  [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+* [SDK source code](https://bitbucket.sw.nxp.com/projects/MCUCORE/repos/mcu-sdk-2.0/browse) — BSD
+* Documentation
+  * [SDK Development Guide\_need to update](https://github.com/) —  [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
 

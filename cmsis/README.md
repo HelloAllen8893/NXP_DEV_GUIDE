@@ -1,14 +1,14 @@
-# CMSIS: Cortex Microcontroller Software Interface Standard
+# CMSIS
 
 CMSIS enables consistent device support and simple software interfaces to the processor and its peripherals, simplifying software reuse, reducing the learning curve for microcontroller developers, and reducing the time to market for new devices.
 
 ## Overview
 
-Starting from CMSIS-CORE, a vendor-independent hardware abstraction layer for Cortex-M processors, CMSIS has since expanded into areas such as software component management and reference debugger interfaces. Creation of software is a major cost factor in the embedded industry. Standardizing the software interfaces across all Cortex-M silicon vendor products, especially when creating new projects or migrating existing software to a new device, means significant cost reductions. 
+Starting from CMSIS-CORE, a vendor-independent hardware abstraction layer for Cortex-M processors, CMSIS has since expanded into areas such as software component management and reference debugger interfaces. Creation of software is a major cost factor in the embedded industry. Standardizing the software interfaces across all Cortex-M silicon vendor products, especially when creating new projects or migrating existing software to a new device, means significant cost reductions.
 
 CMSIS is defined in close cooperation with various silicon and software vendors and provides a common approach to interface to peripherals, real-time operating systems, and middleware components. It simplifies software reuse, reducing the learning curve for new microcontroller developers and cutting the time-to-market for devices.
 
-![CMSIS_Diagram_v2](../../DevelopGuide/assets/gitbook/CMSIS_Diagram_v2.png)
+![](../.gitbook/assets/cmsis_diagram_v2.png)
 
 ## Components
 
@@ -16,15 +16,15 @@ CMSIS including seven parts and each part has its specific functionality.
 
 > **Note** More details about CMSIS to see [here](https://developer.arm.com/embedded/cmsis).
 
-- [CMSIS-RTOS](http://arm-software.github.io/CMSIS_5/RTOS2/html/index.html) is an API that enables consistent software layers with middleware and library components
-- [CMSIS-DSP](http://arm-software.github.io/CMSIS_5/DSP/html/index.html) library is a rich collection of DSP functions that Arm has optimized for the various Cortex-M processor cores
-- [CMSIS-Driver](http://arm-software.github.io/CMSIS_5/Driver/html/index.html) interfaces are available for many microcontroller families
-- [CMSIS-Pack](http://http//arm-software.github.io/CMSIS_5/Pack/html/index.html) defines the structure of a software pack containing software components
-- [CMSIS-SVD](http://http//arm-software.github.io/CMSIS_5/SVD/html/index.html) files enable detailed views of device peripherals with current register state
-- [CMSIS-DAP](http://http//arm-software.github.io/CMSIS_5/DAP/html/index.html) is a standardized interface to the Cortex Debug Access Port (DAP)
-- [CMSIS-NN](http://arm-software.github.io/CMSIS_5/NN/html/index.html) is a collection of efficient neural network kernels
+* [CMSIS-RTOS](http://arm-software.github.io/CMSIS_5/RTOS2/html/index.html) is an API that enables consistent software layers with middleware and library components
+* [CMSIS-DSP](http://arm-software.github.io/CMSIS_5/DSP/html/index.html) library is a rich collection of DSP functions that Arm has optimized for the various Cortex-M processor cores
+* [CMSIS-Driver](http://arm-software.github.io/CMSIS_5/Driver/html/index.html) interfaces are available for many microcontroller families
+* [CMSIS-Pack](http://http//arm-software.github.io/CMSIS_5/Pack/html/index.html) defines the structure of a software pack containing software components
+* [CMSIS-SVD](http://http//arm-software.github.io/CMSIS_5/SVD/html/index.html) files enable detailed views of device peripherals with current register state
+* [CMSIS-DAP](http://http//arm-software.github.io/CMSIS_5/DAP/html/index.html) is a standardized interface to the Cortex Debug Access Port \(DAP\)
+* [CMSIS-NN](http://arm-software.github.io/CMSIS_5/NN/html/index.html) is a collection of efficient neural network kernels
 
-##Source Code
+## Source Code
 
 CMSIS is publicly developed on GitHub, you can fork/clone it [here](https://github.com/ARM-software/CMSIS_5/releases).
 
@@ -32,7 +32,7 @@ CMSIS is publicly developed on GitHub, you can fork/clone it [here](https://gith
 
 Below is the newest release notes `5.4.0`.
 
-```
+```text
 CMSIS-Core(M): 5.1.2
 
 Added Cortex-M1 support (beta).
@@ -67,3 +67,4 @@ Utilities
 SVDConv 3.3.21
 PackChk 1.2.71
 ```
+
